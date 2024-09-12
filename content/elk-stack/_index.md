@@ -2,7 +2,7 @@
 title = "Cài đặt ELK stack"
 date = 2024-08-31T22:02:02+07:00
 weight = 1
-chapter = true
+chapter = false
 pre = "<b>1. </b>"
 +++
 
@@ -58,5 +58,5 @@ tiếp theo sẽ yêu cầu nhập mã pin, mã pin được hiển thị ở lo
 Khi đó ta hoàn thành cài đặt kibana và elasticsearch
 ```
 
-+ Tiếp theo chúng ta sẽ cài đặt Suricata và filebeat để thu thập log từ Suricata và chuyển đến elasticsearch
++ Tiếp theo chúng ta sẽ cài đặt [Suricata](../filebeat/#cài-đặt-suricata) và [filebeat](../filebeat/#cài-đặt-filebeat) để thu thập log từ Suricata và chuyển đến elasticsearch
 
